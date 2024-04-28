@@ -3,7 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
+.card-btn button{
+	transition: 0.3s ease ;
+}
 .card-btn button:hover{
 	background-color: #032830!important;
 }
