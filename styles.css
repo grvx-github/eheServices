@@ -7,3 +7,8 @@
 .card-btn button:hover{
 	background-color: #032830!important;
 }
+@media screen and (max-width:747px) {
+	.serviceRow .card{
+		margin-bottom: 6rem;
+	}
+}
