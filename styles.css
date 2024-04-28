@@ -1,0 +1,9 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.card-btn button:hover{
+	background-color: #032830!important;
+}
