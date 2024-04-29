@@ -9,6 +9,15 @@
 .card-btn button:hover{
 	background-color: #032830!important;
 }
+.btn-tertiary{
+	background-color: #06CF9C!important;
+	color: #fff!important;
+}
+.bg-lightBlue{
+	background-color: #bbe2ec;
+	
+}
+
 @media screen and (max-width:747px) {
 	.serviceRow .card{
 		margin-bottom: 6rem;
