@@ -1,25 +1,46 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
-.card-btn button{
-	transition: 0.3s ease ;
+
+.card-btn button {
+	transition: 0.3s ease;
 }
-.card-btn button:hover{
-	background-color: #032830!important;
+
+.card-btn button:hover {
+	background-color: #032830 !important;
 }
-.btn-tertiary{
-	background-color: #06CF9C!important;
-	color: #fff!important;
+
+.btn-tertiary {
+	background-color: #06CF9C !important;
+	color: #fff !important;
 }
-.bg-lightBlue{
+
+.bg-lightBlue {
 	background-color: #bbe2ec;
-	
+
 }
 
 @media screen and (max-width:747px) {
-	.serviceRow .card{
+	.serviceRow .card {
 		margin-bottom: 6rem;
+	}
+}
+
+@media screen and (max-width:747px) {
+
+	section.px-5,
+	.servicesWrapper.px-5 {
+		padding-inline: 1rem !important;
+	}
+	.faqImgDiv{
+		margin-bottom: 2rem;
+	}
+	.section4 .row.p-4{
+		padding-inline: 0!important;
+	}
+	.section4 button.btn{
+		padding-inline: 0.75rem!important;
 	}
 }
